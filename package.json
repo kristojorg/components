@@ -1,0 +1,19 @@
+{
+  "name": "components",
+  "version": "1.0.0",
+  "description": "Components I keep re-making",
+  "main": "index.js",
+  "repository": "https://github.com/kristojorg/components.git",
+  "author": "kristojorg <kristo.jorgenson@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^15.4.1",
+    "react-dom": "^15.4.1"
+  },
+  "scripts": {
+    "storybook": "start-storybook -p 9002 -c .storybook"
+  },
+  "devDependencies": {
+    "@kadira/storybook": "^2.33.1"
+  }
+}
